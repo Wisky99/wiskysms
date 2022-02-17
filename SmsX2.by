@@ -201,13 +201,7 @@ async def on_connect():
 async def sms(ctx, phone, amount:int):
     
     if (amount < 151):
-    	
-      embes = discord.Embed(title="Wisky SmS", description="Bot by : Wisky",color=0xff4612)
-      embes.add_field(name="กำลังยิงไปที่เบอร์",value=phone, name="",value=amount)
-      ima = "https://phoneky.co.uk/thumbs/screensavers/down/technology/smsisloadi_aleaqts4.gif"
-      embes.set_image(url=ima)
-    
-      await ctx.channel.send(embed=embes)
+        await ctx.channel.send(> กำลังยิงไปที่เบอร์",value=phone)
     
 		
     
