@@ -201,7 +201,7 @@ async def on_connect():
 async def sms(ctx, phone, amount:int):
     
     if (amount < 151):
-        await ctx.channel.send("> กำลังยิงไปที่เบอร์,value=phone")
+        await ctx.channel.send("> กำลังยิงไปที่เบอร์",value=phone)
     
 		
     
