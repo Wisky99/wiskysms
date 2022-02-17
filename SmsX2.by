@@ -205,7 +205,7 @@ async def sms(ctx, phone, amount:int):
       embes = discord.Embed(title="Wisky SmS", description="Bot by : Wisky",color=0xff4612)
       embes.add_field(name="กำลังยิงไปที่เบอร์",value=phone)
       image = "https://phoneky.co.uk/thumbs/screensavers/down/technology/smsisloadi_aleaqts4.gif"
-      embes.set_image(url=ima)
+      embes.set_image(url=image)
     
       await ctx.channel.send(embed=embes)
     
